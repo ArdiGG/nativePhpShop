@@ -1,0 +1,13 @@
+{
+    "name": "arkadiy/native-php-internet-shop",
+    "authors": [
+        {
+            "name": "ArdiGG",
+            "email": "arkadiok2033@gmail.com"
+        }
+    ],
+    "require": {
+        "smarty/smarty": "^4.1",
+        "ext-pdo": "*"
+    }
+}
