@@ -8,7 +8,7 @@ $template = 'default';
 define('TemplatePrefix', "../views/{$template}/");
 define('TemplatePostfix', '.tpl');
 
-define('TemplateWebPath', "/templates/{$template}");
+define('TemplateWebPath', "/templates/{$template}/");
 
 $smarty = new Smarty();
 
