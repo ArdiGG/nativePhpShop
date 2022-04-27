@@ -8,7 +8,7 @@ function index($smarty){
     $products = getLastProducts(9);
 
     $smarty->assign('categories', $categories);
-    $smarty->assign('pageTitle', 'ArdiShop | Главная странница');
+    $smarty->assign('pageTitle', Title . 'Главная странница');
     $smarty->assign('products', $products);
 
     loadTemplate($smarty, 'header');

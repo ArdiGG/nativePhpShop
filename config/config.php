@@ -8,6 +8,8 @@ $template = 'default';
 define('TemplatePrefix', "../views/{$template}/");
 define('TemplatePostfix', '.tpl');
 
+define('Title', 'ArdiShop | ');
+
 define('TemplateWebPath', "/templates/{$template}/");
 
 $smarty = new Smarty();

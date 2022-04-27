@@ -1,7 +1,7 @@
 <?php
 
-require "./../models/Category.php";
-require "./../models/Product.php";
+require "../models/Category.php";
+require "../models/Product.php";
 
 function index($smarty)
 {
@@ -20,7 +20,7 @@ function index($smarty)
     } else {
         $products = getProductsByCategoryId($categoryId);
     }
-    $smarty->assign('pageTitle', 'ArdiShop | ' . $category['name']);
+    $smarty->assign('pageTitle', Title . $category['name']);
     $smarty->assign('childCategories', $childCategories);
     $smarty->assign('products', $products);
     $smarty->assign('category', $category);

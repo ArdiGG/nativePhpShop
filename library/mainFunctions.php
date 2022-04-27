@@ -20,3 +20,8 @@ function loadTemplate($smarty, $templateName)
 {
     $smarty->display($templateName . TemplatePostfix);
 }
+
+function redirect(string $path = '/') {
+    header('Location: ' .  $path);
+    exit();
+}

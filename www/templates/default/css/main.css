@@ -1,41 +1,54 @@
-body{
+body {
     padding: 0;
     display: block;
 }
 
-.hideme{
+.hideme {
     display: none;
 }
 
-#header{
+#header {
     height: 70px;
     text-align: center;
 }
 
-#leftColumn{
+#leftColumn {
     width: 200px;
     float: left;
 }
 
-#leftMenu, #loginBox, #registerBox{
+#leftMenu, #loginBox, #registerBox {
     padding-bottom: 20px;
 }
 
-#centerColumn{
+#centerColumn {
     width: 600px;
     float: left;
     padding-left: 90px;
 }
 
-#footer{
+#footer {
     clear: both;
 }
 
-.menuCaption{
+.menuCaption {
     padding: 3px;
     font-weight: bold;
 }
 
-.cartBox{
+.cartBox {
     padding: 5px 0px 5px 0px;
+}
+
+.button {
+    margin-top: 10px;
+    min-width: 211px;
+    cursor: pointer;
+    padding: 10px 16px 10px 16px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    background-color: #5dc46f;
+    font-family: Arial;
+    font-weight: bold;
 }
